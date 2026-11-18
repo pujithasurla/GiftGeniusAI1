@@ -1,0 +1,17 @@
+# Ignore local environments, secrets, and generated artifacts
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+instance/*.db
+instance/shopping_store/
+logs/
+reports/*.pdf
+reports/*.html
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
